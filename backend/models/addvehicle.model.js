@@ -7,7 +7,7 @@ const addvehicleSchema = new Schema({
         type: String,
         required: true,
         unique: true,                    
-        trim: true,
+        trim: true,             
 
     },
     name: {
