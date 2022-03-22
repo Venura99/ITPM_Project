@@ -10,7 +10,7 @@ router.route('/').get((req, res) => {
 
 
 //create
-router.route('/add').post((req, res) => { 
+router.route('/add').post((req, res) => {  
     const _id = req.body._id;
     const name = req.body.name;
     const vehicleImage = req.body.vehicleImage;
